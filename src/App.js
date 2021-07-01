@@ -4,7 +4,7 @@ import { Switch, Route } from "react-router-dom"
 import "./styling/css/App.css";
 
 import HomePage from "./Pages/Home";
-import MeryAi from "./Pages/MeryAi"
+import MeryAI from "./Pages/MeryAI"
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/MeryAi" component={MeryAi} />
+        <Route exact path="/MeryAi" component={MeryAI} />
       </Switch>
     </div>
   );

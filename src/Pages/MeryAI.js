@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import BotAnim from "./../components/animations/Bot";
 
-const MeryAi = () => {
+const MeryAI = () => {
 
   const [MuteButtonState, setMuteButtonState] = useState(false);
   const nameList = [
@@ -504,4 +504,4 @@ const MeryAi = () => {
   )
 }
 
-export default MeryAi
+export default MeryAI
