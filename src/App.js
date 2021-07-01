@@ -4,7 +4,7 @@ import { Switch, Route } from "react-router-dom"
 import "./styling/css/App.css";
 
 import HomePage from "./Pages/Home";
-import MeryAi from "./Pages/MeryAi";
+import MeryAi from "./Pages/MeryAi"
 
 function App() {
 
