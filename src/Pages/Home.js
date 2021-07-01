@@ -43,7 +43,7 @@ const Home = () => {
             <li>Mery-Ai only works with the browser <strong>"google chrome"</strong>, so make sure to have it installed</li>
             <li>Due to the computer controlling comands, the code <strong>must be downloaded and booted locally</strong></li>
             <li>The libraries and commands are <strong>MacOs specific</strong>, so this only works on apple computers</li>
-            <li>You must have installed <strong>github in your computer</strong> in order to clone the code repository</li>
+            <li>You must have installed <strong>github and nodejs in your computer</strong> in order to clone the code repository</li>
           </ul>
         </div>
         <div className="usageBox">
