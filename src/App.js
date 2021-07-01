@@ -27,7 +27,7 @@ function App() {
 
   const RunTCommand = (command) => {
     axios
-      .post("/transcript", {
+      .post(`${process.env.REACT_APP_NOT_BACKEND_URL}/transcript`, {
         action: command,
       })
       .then((response) => console.log(response.data))
@@ -37,7 +37,7 @@ function App() {
   const RunTInfoFetcher = (command) => {
 
       axios
-      .post("/dataFetcher", {
+      .post(`${process.env.REACT_APP_NOT_BACKEND_URL}/dataFetcher`, {
         action: command,
       })
       .then((response) => { console.log(response.data) })
@@ -46,7 +46,7 @@ function App() {
     
   const CPURemote = (command) => {
     axios
-      .post("/pressKey", {
+      .post(`${process.env.REACT_APP_NOT_BACKEND_URL}/pressKey`, {
         key: command,
       })
       .then((response) => console.log(response.data))
@@ -55,7 +55,7 @@ function App() {
 
   const Speak = (response) => {
     axios
-      .post("/speaking", {
+      .post(`${process.env.REACT_APP_NOT_BACKEND_URL}/speaking`, {
         text: response,
       })
       .then((res) => {

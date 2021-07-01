@@ -21,7 +21,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "https://mery-ai-backend-server.herokuapp.com",
   "browserslist": {
     "production": [
       ">0.2%",
