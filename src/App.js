@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./styling/css/App.css";
 
-// Animation Components :)
+// Animation Components :) :)
 import BotAnim from "./components/animations/Bot";
 
 function App() {
