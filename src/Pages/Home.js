@@ -50,7 +50,7 @@ const Home = () => {
           <h4>Installation and Usage <span role="img" aria-label="check emoji">⚙️</span></h4>
           <ol>
             <li>Open app "terminal" and run the next line of code to position yourself in the desktop: <strong> cd desktop</strong></li>
-            <li>Download the repo by copying and entering the next line of code in the terminal: <strong>git clone https://github.com/Silver0401/JS-MeryAI</strong></li>
+            <li>Download the repo by copying and entering the next line of code in the terminal: <strong>git clone https://github.com/Silver0401/JS-MeryAI.git</strong></li>
             <li>Enter the folder you just copied into your desktop by copying the next command in the terminal: <strong>cd JS-MeryAI</strong></li>
             <li>Run the following command to install dependencies and boot up MeryAI: <strong>npm install && npm run build && npm run LocalStart</strong></li>
           </ol>
