@@ -232,6 +232,19 @@ const MeryAI = () => {
     
   };
 
+  const SayAJoke = () => {
+    const jokeList = [
+      "I invented a new word! I called it plagiarism",
+      "Have you heard about the new restaurant called karma? There's no menu, you get what you deserve",
+      "Hey, did you hear about the claustrophobic astrounaut? Yeah, he just needed a little space",
+      "Do you know why scientists don't trust astrounauts? Because they make everything up",
+      "A man tells his doctor: Doc, help me I'm addicted to twitter. The doctor replies: Sorry I don't follow you",
+      "What did the left eye say to the right eye? Between you and me, something smells",
+    ]
+
+    Speak(jokeList[Math.floor(Math.random() * jokeList.length)])
+  }
+
   useEffect(() => {
     const AIListenerEn = () => {
       var recognition = new (window.SpeechRecognition ||
@@ -280,7 +293,9 @@ const MeryAI = () => {
             SetVolumeTo(audio, "general");
           }
 
-
+          if (((audio.includes("tell") && audio.includes("me")) || (audio.includes("say") && audio.includes("a")) || (audio.includes("tell") && audio.includes("a"))) && audio.includes("joke")){
+            SayAJoke()
+          }
 
           nameList.forEach((word) => {
             if (audio.includes(word)) Speak("Yes sir?");

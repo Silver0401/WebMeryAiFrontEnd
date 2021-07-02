@@ -61,8 +61,12 @@ const Home = () => {
             <li><strong>Hey Mery!</strong> (Command to call her)</li>
             <li><strong>Music Mode</strong> (allows you to controll the macOs app itunes)</li>
             <li>Music Mode Commands: <strong>play, pause/stop, next, previous, search song "song's name", search artis "artist's name", exit music mode</strong></li>
-            <li> <strong>Hands free mode</strong> (allows you to control videos in either youtube, netflix, prime, etc.)</li>
-            <li>Hands Free Mode Commands: <strong>Play, pause/stop, mute, unmute, full screen, small screen, exit hands free mode</strong></li>
+            <li>Volume Commands<strong>computer volume "0 - 100" (general volume) | itunes/music volume "0 - 100" (itunes volume)</strong> </li>
+            <li><strong>Go to sleep</strong> (to deactivate mery temporarily)</li>
+            <li><strong>Tell me a joke / say a joke</strong> (Mery chooses and tells one random joke)</li>
+            <li><strong>Exit/Quit App</strong> (to close Mery)</li>
+            {/* <li> <strong>Hands free mode</strong> (allows you to control videos in either youtube, netflix, prime video, etc.)</li> */}
+            {/* <li>Hands Free Mode Commands: <strong>Play, pause/stop, mute, unmute, full screen, small screen, exit hands free mode</strong></li> */}
           </ul>
         </div>
       </div>
